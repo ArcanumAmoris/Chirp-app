@@ -1,0 +1,9 @@
+.header_main {
+    color: #fff;
+}
+
+#username {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

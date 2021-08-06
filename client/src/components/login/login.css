@@ -1,0 +1,36 @@
+.login_form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: black;
+    color: #fff;
+}
+
+.form_item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.form_item input {
+    outline-style: none;
+    border-style: none;
+    border-radius: 3px;
+    height: 22px;
+}
+
+.login_form button {
+    background: rgb(29, 161, 242);
+    border-radius: 10px;
+    outline-style: none;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 22px;
+    color: white;
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700");
+
+#root {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: "Nunito Sans", sans-serif;
+    background-color: rgb(122, 121, 121);
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgb(114, 110, 110);
+    border-radius: 8px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(13, 14, 14);
+    border-radius: 20px;
+  }

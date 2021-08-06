@@ -1,0 +1,43 @@
+.contacts_component {
+    width: 40%;
+    max-width: 300px;
+    transition: width 0.3s;
+    height: 100%;
+    overflow-y: scroll;
+    display: inline-block;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(189, 189, 192, 0.1);
+    height: 40px;
+    font-weight: bold;
+    color: #91959b;;
+}
+
+.message_div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    color: rgb(189, 185, 179);
+    cursor: pointer;
+    columns: 2;
+}
+
+.time_sent {
+    font-size: 0.6rem;
+}
+.username {
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+
+.message {
+    word-break: keep-all;
+    font-size: 0.7rem;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow-wrap: break-word;
+    margin-left: 15px;
+}

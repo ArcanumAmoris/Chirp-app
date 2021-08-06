@@ -1,0 +1,31 @@
+.main_div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: #fff;
+    width: 350px;
+    height: 450px;
+    overflow-y: scroll;
+    opacity: 0.8;
+}
+
+.select_contact_div {
+    display: flex;
+    cursor: pointer;
+}
+
+.username {
+    padding-left: 10px;
+    font-size: 0.9rem;
+}
+
+.status {
+    font-size: 0.7rem;
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+}
